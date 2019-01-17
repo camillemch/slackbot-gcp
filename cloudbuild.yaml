@@ -1,5 +1,5 @@
 steps:
 - name: 'gcr.io/cloud-builders/docker'
-  args: [ 'build', '-t', 'gcr.io/$PROJECT_ID/slackbot', '.' ]
+  args: [ 'build', '-t', 'gcr.io/ae-lab/slackbot', '.' ]
 images:
-- 'gcr.io/$PROJECT_ID/slackbot'
+- 'gcr.io/ae-lab/slackbot'
